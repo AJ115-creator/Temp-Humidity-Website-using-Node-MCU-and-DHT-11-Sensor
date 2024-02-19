@@ -1,0 +1,147 @@
+body{
+  border: 5px solid #1abc9c;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+
+table th,
+table td {
+  background-color: transparent;
+  padding: 8px;
+  border: 3px solid black;
+  text-align: left;
+}
+
+table th {
+  background-color: #FFEEBB;
+}
+
+.tableHeads {
+  color: #9AC5F4;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+  font-weight: bolder;
+}
+
+button {
+  padding: 5px 10px;
+  background-color: #FFD6A5;
+  color: rgb(6, 6, 6);
+  cursor: pointer;
+  border: 3px solid black;
+  text-decoration: none;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+.contain div {
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  position: relative;
+  background-size: cover;
+  display: flex;
+  border-bottom: 5px solid #1abc9c;
+  flex-direction: column;
+  /* Ensures vertical layout */
+  justify-content: center;
+  /* Centers content vertically */
+  align-items: center;
+  /* Centers content horizontally */
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&display=swap');
+.header {
+  background-image: url('./headerbg.jpg');
+    background-size: contain;
+  font-family: Libre Baskerville;
+  margin-top: 200px;
+  padding: 60px;
+  text-align: center;
+  color: #1abc9c;
+  font-size: 35px;
+  font-weight: 300;
+}
+.bg{
+  background-image: url('./bg2.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+        
+}
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Libre+Baskerville&family=Mukta:wght@300&display=swap');
+
+.heading {
+  font-family: Mukta;
+  text-align: center;
+  font-size: 125px;
+  text-decoration: underline;
+  text-decoration-color: 3px solid black;
+  background: linear-gradient(135deg, #1abc9c, #E7AB79);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+ 
+}
+
+.sub{
+  background-image: url('./subheading.png');
+  background-size: contain;
+}
+.content {
+  position: relative;
+  z-index: 1;
+}
+
+.chart-label {
+  margin-top: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+}
+
+.chart-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  max-width: 100%;
+  overflow-x: auto;
+  margin-top: 20px;
+
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+  width: 100% !important;
+  height: auto !important;
+
+}
