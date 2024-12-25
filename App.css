@@ -1,0 +1,118 @@
+:root {
+  --background-start: #4158D0;
+  --background-middle: #C850C0;
+  --background-end: #FFCC70;
+  --text-primary: #FFFFFF;
+  --text-secondary: #F0F0F0;
+  --accent-color: #FFD6A5;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', 'Mukta', sans-serif;
+  background: linear-gradient(135deg, var(--background-start), var(--background-middle), var(--background-end));
+  color: var(--text-primary);
+  min-height: 100vh;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--text-primary);
+}
+
+.heading {
+  font-family: 'Mukta', sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  background: linear-gradient(45deg, var(--text-primary), var(--accent-color));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.content {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 10px;
+  margin-bottom: 20px;
+}
+
+table th,
+table td {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+  text-align: left;
+  border-radius: 10px;
+}
+
+table th {
+  background-color: rgba(255, 255, 255, 0.2);
+  color: var(--text-primary);
+  font-weight: bold;
+}
+
+.tableHeads {
+  color: var(--text-primary);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  background-color: var(--accent-color);
+  color: var(--background-start);
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--text-primary);
+  color: var(--background-middle);
+}
+
+.chart-container {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 20px;
+  padding: 1rem;
+  margin-top: 2rem;
+}
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 2rem;
+  }
+
+  .heading {
+    font-size: 2.5rem;
+  }
+
+  table th,
+  table td {
+    padding: 0.5rem;
+  }
+}
+
