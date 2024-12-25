@@ -1,5 +1,0 @@
-1.) Adafruit Unified Sensor Library
-2.) DHT Sensor Library
-3.) Firebase Arduino Client Library 
-4.) Firebase ESP8266 Client
-5.) NTP Client 
